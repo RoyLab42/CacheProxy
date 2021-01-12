@@ -3,8 +3,19 @@
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
     <RootNamespace>RoyLab.CacheProxy</RootNamespace>
+    
+    <!--  NuGet package version  -->
+    <PackageId>RoyLab.CacheProxy</PackageId>
+    <PackageVersion>1.1.0</PackageVersion>
     <Authors>Roy Zhang</Authors>
-    <VersionPrefix>1.1</VersionPrefix>
+    <Description>
+      RoyLab.CacheProxy is a .Net library that can enable cache behavior at runtime. There's no need implement cache
+      logic in your business logic, the library can do it for you.
+    </Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <!--  source related to this package  -->
+    <RepositoryUrl>https://github.com/RoyLab42/CacheProxy.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
   </PropertyGroup>
 
   <ItemGroup>
